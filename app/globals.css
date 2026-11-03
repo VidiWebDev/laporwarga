@@ -1,0 +1,26 @@
+/* Tailwind directives - do not remove */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System Colors */
+:root {
+  --bg-offwhite: #f8f7f4;
+  --text-charcoal: #20241f;
+  --emerald-primary: #10302a;
+  --emerald-dark: #0d2529;
+  --orange-accent: #ff6b35;
+  --orange-light: #fd7e14;
+}
+
+/* Body with design system colors */
+body {
+  background-color: #f8f7f4;
+  color: #20241f;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Custom colors fallback */
+.emerald-900 { color: #10302a !important; }
+.orange-500 { color: #ff6b35 !important; }
+.orange-600 { color: #fd7e14 !important; }
